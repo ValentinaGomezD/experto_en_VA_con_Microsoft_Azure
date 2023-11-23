@@ -59,10 +59,10 @@ class CustomVisionApp(QMainWindow):
                 image_data = image_file.read()
 
             # Reemplaza con tus propias credenciales de Custom Vision
-            endpoint = 'https://perrosygatos-prediction.cognitiveservices.azure.com'
-            prediction_key = 'b6efc9d10e15470dbd1c9c733fa01adf'
-            project_id = '2a1db91e-9e9d-4a9c-a625-30169909b6a8'
-            iteration_id = 'Iteration1'  # Reemplaza con el ID correcto
+            endpoint = 'Tu_endpoint'
+            prediction_key = 'Tu_prediction_key'
+            project_id = 'Tu_project_id'
+            iteration_id = 'Tu_iteration_id'  
 
             params = {'iterationId': iteration_id}
 
